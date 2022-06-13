@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ProyectoOrdinario/Pods-ProyectoOrdinario-frameworks.sh
+${BUILT_PRODUCTS_DIR}/KeyValueStorage/KeyValueStorage.framework
+${BUILT_PRODUCTS_DIR}/RestService/RestService.framework
+${BUILT_PRODUCTS_DIR}/StrapiSwift/StrapiSwift.framework

@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyValueStorage.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestService.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StrapiSwift.framework

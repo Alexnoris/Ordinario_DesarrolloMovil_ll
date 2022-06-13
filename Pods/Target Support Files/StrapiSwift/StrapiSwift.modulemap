@@ -1,0 +1,6 @@
+framework module StrapiSwift {
+  umbrella header "StrapiSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

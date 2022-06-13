@@ -1,0 +1,24 @@
+PODS:
+  - KeyValueStorage (1.0.0)
+  - RestService (1.0.1)
+  - StrapiSwift (1.0.0):
+    - KeyValueStorage (= 1.0.0)
+    - RestService (= 1.0.1)
+
+DEPENDENCIES:
+  - StrapiSwift (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - KeyValueStorage
+    - RestService
+    - StrapiSwift
+
+SPEC CHECKSUMS:
+  KeyValueStorage: 430a4401e10091520b71733b6d60313c535163ed
+  RestService: 313a26e7bb24c9a5c134f08dace5bd73c9227f60
+  StrapiSwift: fc3fa87d5d05c8369a920ae8b838814d2be27079
+
+PODFILE CHECKSUM: 4232b43fb33a547ac54ad2bb2ea02d9b61dea77a
+
+COCOAPODS: 1.11.3

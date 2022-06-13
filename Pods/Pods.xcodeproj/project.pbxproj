@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7097070ACD72B5163B435BCA7B0730 /* CountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773407E71AF509F9F8158724D630694 /* CountRequest.swift */; };
+		172A04769CF637DD4AE666A10F7948C2 /* StrapiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AC30010E64A6B3F4CE6942F5BA4EE /* StrapiRequest.swift */; };
+		2C07E2E5D0F375375AC90DF95FAEB1B0 /* RequestExecutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2694B9D0DCA96BFE83C8203104D9B000 /* RequestExecutable.swift */; };
+		33F951003D34F13F6EF73D06E501B3B4 /* RestDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1FA21545070609835B025710F3403 /* RestDataTask.swift */; };
+		399C95BEB881DF2B3BCE237E7A004919 /* StorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4059DA0B7F5B9CC2B200A51077B1FC /* StorageKey.swift */; };
+		45C620BDE6FA63F9C6FC0D0700908CF6 /* Pods-ProyectoOrdinario-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A2D68C8D4660A95B578044842CCA /* Pods-ProyectoOrdinario-dummy.m */; };
+		49F9A144228A889096223D4A9B98B828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		562A2C90E80BFDCC4551B8602BB12EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5AE24F31EE53C8BC6D6AAB8BDA2DE44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5C2DEFD95A48953DDE1497B7D3311870 /* Pods-ProyectoOrdinario-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A222030BE871811102E3F954F06EA2 /* Pods-ProyectoOrdinario-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC8EAC66CC2DAC7F5A1FBE036EDA421 /* StrapiSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D687A7B305BE0181F1A6AE9B916A7FD2 /* StrapiSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DCB7F7765C59E9BD1F0A022E7A6D12D /* RestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393414EC17E5508071E5E6BB2F51D4B /* RestService.swift */; };
+		6C23B34E179BEC5094646C59F7EB3E34 /* HTTPScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71459A28A6C4935B3A7C6AA06303FE03 /* HTTPScheme.swift */; };
+		74432F6724BD1910D9D1725302C6DA0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		748A8826F6A0DD11DED1664F38EDECF9 /* StrapiSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0EA90A0776809487FB110A04BE8907 /* StrapiSwift-dummy.m */; };
+		82FF3E8FD192FF2342AC8FC74A702993 /* RestPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22190B42469E3B6AD92790FC4997F31F /* RestPath.swift */; };
+		83108761D1D31DED48DB2C35DECFEFD8 /* RestService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1153881C9DE33F1A2FB6DCBB93150361 /* RestService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83B14E7EFCA8964C6900B2E5A18A99F5 /* DestroyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785E585AF35F40342D00461A0EAD53DF /* DestroyRequest.swift */; };
+		85ED1D900644CE483A2C6195D8CF7D4C /* KeyValueStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F9EE60A7EF8F1FA01A992869FF746 /* KeyValueStorage.swift */; };
+		8AA6A457B25C43A1784F251F77FA5BBB /* UserDefaultsKeyValueStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936244EC188A6BC5D5A8B150D10C0D94 /* UserDefaultsKeyValueStorage.swift */; };
+		8DCD73A333403D46C2A346F72D829328 /* FormDataParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A7064BEC6F780DD1B946759935F4E /* FormDataParameter.swift */; };
+		A1D6C2E20590347C830153885A4818A6 /* StrapiMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90474081484AD60BE45BA8398BE0E46A /* StrapiMessage.swift */; };
+		A71FDD595C8B1EC9AB43488C6B02A869 /* RestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D227B0578142FFC410E8BE2CD9F76D8 /* RestResponse.swift */; };
+		AA43B9CD7625B351ECBD890A9946B8DF /* CreateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9243E14B9F9350EE6CBC4B0AF659AE16 /* CreateRequest.swift */; };
+		AED62BC511EBC1054C5D2A3647E80D93 /* Strapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9FEEC0459F5CFBE5369801F6612D8 /* Strapi.swift */; };
+		BA856296EF2ED46E7CCA490811B11FDD /* MemoryKeyValueStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD3347F737C532AAA246F10DAD450FD /* MemoryKeyValueStorage.swift */; };
+		C398F134903AB2BAB1ACC97823302E0E /* UpdateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BFE1C02503B2AE48AD7D23A9924F3 /* UpdateRequest.swift */; };
+		C457CDFEFAD037BE9E35D31C61F0BC44 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A6ADFDFA343B81751DC0C7A2FE69E7 /* ContentType.swift */; };
+		C74568D008D4705055B45D0122BB0BE8 /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF304BCBCD4D3036D7DEB2BB0CE45E2E /* FetchRequest.swift */; };
+		D8179C159524BDA84CAC4720CCAF05EB /* RestRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864CBA70AE2450DDACB3F4077F96D46 /* RestRequestInterceptor.swift */; };
+		DAB8038DCB00A53B618EBAEB149F4877 /* KeyValueStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD63E98A9339A3B2C6488B66E002CCA2 /* KeyValueStorage-dummy.m */; };
+		DF0C3682700C3C92356080E1BD031B03 /* RestResponseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD9077A0D172883A7BCF0D334E3AAA8 /* RestResponseExtensions.swift */; };
+		DFAC56CEBE19386F915DA6BAE3C6AA7A /* TextFormDataParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D247853FF0B94877877145AC72ACE405 /* TextFormDataParameter.swift */; };
+		E537E3899375086A6CD68D8954BE7FE7 /* StrapiAuthorizationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19228276FFBD38241F348AB7131916AC /* StrapiAuthorizationInterceptor.swift */; };
+		E9BA8DCD6825E32E01091EB909162492 /* StorageKeyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F109304D6B68E98DA45FA6329A41B2 /* StorageKeyExtensions.swift */; };
+		EE87496EFF08520455AB127100EC18DB /* QueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FC1132F1BC7AB3D427EAAB3375F13 /* QueryRequest.swift */; };
+		F3DAA51BFADD10E4B55D181F332B353D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B2965DFFC28353689CE2B1F914287 /* HTTPMethod.swift */; };
+		F727628054A1E846D7A0F30E33600E14 /* StrapiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8906BB555728EDC18C89D965FC24490C /* StrapiError.swift */; };
+		FAFFC9968B91237C09108F6DAFCB89C1 /* KeychainKeyValueStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701A2BA444E6C9915C4ED60867BAAAB /* KeychainKeyValueStorage.swift */; };
+		FC3706B2C3AAB01C3FB5741D9468F10B /* KeyValueStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBF35192D4D632AFEB6E26B54EC244D /* KeyValueStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD4F4754C915F750143DF06FA4E07559 /* RestService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4554C9A574872752EE639DCC01C68AF /* RestService-dummy.m */; };
+		FFE01D369749DAC330DCEAC6C8C4BC81 /* FileFormDataParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE8FEDD79B9CF026C908F3096433AC /* FileFormDataParameter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		389783F319AE63804C3500C225BE8870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1654B7579944653C022EF5A8C0332F90;
+			remoteInfo = RestService;
+		};
+		5A54C8415BFE3F4438413481A1B960E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC74D22D24C02CD45B96BD10E3BC30F;
+			remoteInfo = StrapiSwift;
+		};
+		E108147A8C3299C2FF5526EE63FF1CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F91F8CDF5F68F7961359A28741F6C82;
+			remoteInfo = KeyValueStorage;
+		};
+		E4D0D875E2C0FB164A0795BC616A8B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1654B7579944653C022EF5A8C0332F90;
+			remoteInfo = RestService;
+		};
+		FB4C39F6E18D3A8594D6BD9E2FF87DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F91F8CDF5F68F7961359A28741F6C82;
+			remoteInfo = KeyValueStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06017A2B53DF18995B6640CA750C9EE4 /* StrapiSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StrapiSwift.modulemap; sourceTree = "<group>"; };
+		06462DA923933DE3BC7F6C0D065C5A7E /* RestService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RestService-prefix.pch"; sourceTree = "<group>"; };
+		0701A2BA444E6C9915C4ED60867BAAAB /* KeychainKeyValueStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainKeyValueStorage.swift; path = Classes/Implementation/KeychainKeyValueStorage.swift; sourceTree = "<group>"; };
+		0A2AC30010E64A6B3F4CE6942F5BA4EE /* StrapiRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrapiRequest.swift; path = Classes/Requests/StrapiRequest.swift; sourceTree = "<group>"; };
+		0A66E1C32A084BB4B6ABA1425A9E87E4 /* StrapiSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StrapiSwift; path = StrapiSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D227B0578142FFC410E8BE2CD9F76D8 /* RestResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestResponse.swift; path = Classes/Models/RestResponse.swift; sourceTree = "<group>"; };
+		1153881C9DE33F1A2FB6DCBB93150361 /* RestService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RestService-umbrella.h"; sourceTree = "<group>"; };
+		19228276FFBD38241F348AB7131916AC /* StrapiAuthorizationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrapiAuthorizationInterceptor.swift; path = Classes/Implementation/StrapiAuthorizationInterceptor.swift; sourceTree = "<group>"; };
+		19D4FAFA2FDF6BA647DFBDB312AC27D2 /* Pods-ProyectoOrdinario-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyectoOrdinario-Info.plist"; sourceTree = "<group>"; };
+		1D10A2D68C8D4660A95B578044842CCA /* Pods-ProyectoOrdinario-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyectoOrdinario-dummy.m"; sourceTree = "<group>"; };
+		1E0EA90A0776809487FB110A04BE8907 /* StrapiSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StrapiSwift-dummy.m"; sourceTree = "<group>"; };
+		1F7FC1132F1BC7AB3D427EAAB3375F13 /* QueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryRequest.swift; path = Classes/Requests/QueryRequest.swift; sourceTree = "<group>"; };
+		22190B42469E3B6AD92790FC4997F31F /* RestPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestPath.swift; path = Classes/Models/RestPath.swift; sourceTree = "<group>"; };
+		25327340ACEAA720D2C123C38B318368 /* Pods-ProyectoOrdinario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyectoOrdinario.debug.xcconfig"; sourceTree = "<group>"; };
+		2694B9D0DCA96BFE83C8203104D9B000 /* RequestExecutable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestExecutable.swift; path = Classes/Protocols/RequestExecutable.swift; sourceTree = "<group>"; };
+		27A1FA21545070609835B025710F3403 /* RestDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestDataTask.swift; path = Classes/Protocols/RestDataTask.swift; sourceTree = "<group>"; };
+		3AAC4691C38802C9D24E7E51CD5A5410 /* KeyValueStorage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyValueStorage; path = KeyValueStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBF35192D4D632AFEB6E26B54EC244D /* KeyValueStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyValueStorage-umbrella.h"; sourceTree = "<group>"; };
+		413BFE1C02503B2AE48AD7D23A9924F3 /* UpdateRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateRequest.swift; path = Classes/Requests/UpdateRequest.swift; sourceTree = "<group>"; };
+		43F251A407EA81EB82A29F6C4A8A70C1 /* RestService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RestService-Info.plist"; sourceTree = "<group>"; };
+		48E68E5DD8E91EB0F66C0C62EC5C93D7 /* KeyValueStorage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeyValueStorage-Info.plist"; sourceTree = "<group>"; };
+		4FD8614A4D5EA909D95AC9D0E3C92341 /* StrapiSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StrapiSwift.release.xcconfig; sourceTree = "<group>"; };
+		5773407E71AF509F9F8158724D630694 /* CountRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountRequest.swift; path = Classes/Requests/CountRequest.swift; sourceTree = "<group>"; };
+		5A4059DA0B7F5B9CC2B200A51077B1FC /* StorageKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageKey.swift; path = Classes/Models/StorageKey.swift; sourceTree = "<group>"; };
+		5AD9077A0D172883A7BCF0D334E3AAA8 /* RestResponseExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestResponseExtensions.swift; path = Classes/Extensions/RestResponseExtensions.swift; sourceTree = "<group>"; };
+		5D107FBEE635E3E224FEBC2ECE1A365A /* Pods-ProyectoOrdinario */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ProyectoOrdinario"; path = Pods_ProyectoOrdinario.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C53B3A1B8B77E5ED3405869BBAFCDF /* RestService */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RestService; path = RestService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A222030BE871811102E3F954F06EA2 /* Pods-ProyectoOrdinario-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyectoOrdinario-umbrella.h"; sourceTree = "<group>"; };
+		66D4FB3AD395F41F7ED198D4FE64174A /* RestService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RestService.modulemap; sourceTree = "<group>"; };
+		69AF51F4EDFA6F3BAB57B32DB4D001E1 /* Pods-ProyectoOrdinario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyectoOrdinario.release.xcconfig"; sourceTree = "<group>"; };
+		712F9EE60A7EF8F1FA01A992869FF746 /* KeyValueStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyValueStorage.swift; path = Classes/Protocols/KeyValueStorage.swift; sourceTree = "<group>"; };
+		71459A28A6C4935B3A7C6AA06303FE03 /* HTTPScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPScheme.swift; path = Classes/Models/HTTPScheme.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		785E585AF35F40342D00461A0EAD53DF /* DestroyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DestroyRequest.swift; path = Classes/Requests/DestroyRequest.swift; sourceTree = "<group>"; };
+		7AF7B18F1ECDDD3DD2933DEB847F819D /* StrapiSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StrapiSwift-prefix.pch"; sourceTree = "<group>"; };
+		7CD0EC76F0CD304CDC01485C73185AA6 /* Pods-ProyectoOrdinario.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyectoOrdinario.modulemap"; sourceTree = "<group>"; };
+		7F0B2965DFFC28353689CE2B1F914287 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Classes/Models/HTTPMethod.swift; sourceTree = "<group>"; };
+		852CFAD8BE0F66E52FCB31BE984C55CD /* Pods-ProyectoOrdinario-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyectoOrdinario-frameworks.sh"; sourceTree = "<group>"; };
+		8906BB555728EDC18C89D965FC24490C /* StrapiError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrapiError.swift; path = Classes/Models/StrapiError.swift; sourceTree = "<group>"; };
+		90474081484AD60BE45BA8398BE0E46A /* StrapiMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrapiMessage.swift; path = Classes/Models/StrapiMessage.swift; sourceTree = "<group>"; };
+		9243E14B9F9350EE6CBC4B0AF659AE16 /* CreateRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateRequest.swift; path = Classes/Requests/CreateRequest.swift; sourceTree = "<group>"; };
+		936244EC188A6BC5D5A8B150D10C0D94 /* UserDefaultsKeyValueStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsKeyValueStorage.swift; path = Classes/Implementation/UserDefaultsKeyValueStorage.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E57C919537F42424A0FA464283FABC1 /* Pods-ProyectoOrdinario-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyectoOrdinario-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0A6ADFDFA343B81751DC0C7A2FE69E7 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = Classes/Models/ContentType.swift; sourceTree = "<group>"; };
+		A4554C9A574872752EE639DCC01C68AF /* RestService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RestService-dummy.m"; sourceTree = "<group>"; };
+		A47A29596A6DF3E1E1F7E75936646D42 /* RestService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RestService.debug.xcconfig; sourceTree = "<group>"; };
+		A63CDF30147952318335C43C2559D214 /* KeyValueStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyValueStorage.release.xcconfig; sourceTree = "<group>"; };
+		A808EFB6401C0A38383B95F0AB3A93D5 /* StrapiSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StrapiSwift-Info.plist"; sourceTree = "<group>"; };
+		A864CBA70AE2450DDACB3F4077F96D46 /* RestRequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestRequestInterceptor.swift; path = Classes/Protocols/RestRequestInterceptor.swift; sourceTree = "<group>"; };
+		AD71535F171AE987522DF0E5C4270A72 /* RestService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RestService.release.xcconfig; sourceTree = "<group>"; };
+		AFD3347F737C532AAA246F10DAD450FD /* MemoryKeyValueStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryKeyValueStorage.swift; path = Classes/Implementation/MemoryKeyValueStorage.swift; sourceTree = "<group>"; };
+		B01A7064BEC6F780DD1B946759935F4E /* FormDataParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDataParameter.swift; path = Classes/Protocols/FormDataParameter.swift; sourceTree = "<group>"; };
+		B393414EC17E5508071E5E6BB2F51D4B /* RestService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestService.swift; path = Classes/Implementation/RestService.swift; sourceTree = "<group>"; };
+		B7F9FEEC0459F5CFBE5369801F6612D8 /* Strapi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strapi.swift; path = Classes/Implementation/Strapi.swift; sourceTree = "<group>"; };
+		BC6C41DAF61AF31DE09CFB74627F93AB /* Pods-ProyectoOrdinario-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyectoOrdinario-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF304BCBCD4D3036D7DEB2BB0CE45E2E /* FetchRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchRequest.swift; path = Classes/Requests/FetchRequest.swift; sourceTree = "<group>"; };
+		C4D5A8D1F85FFB0E6675964E783FF23E /* StrapiSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StrapiSwift.debug.xcconfig; sourceTree = "<group>"; };
+		C751C753C271A823838C8BD13F8E2EDE /* KeyValueStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyValueStorage-prefix.pch"; sourceTree = "<group>"; };
+		CE8EB98B90242C9D28C45147045F0D86 /* KeyValueStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyValueStorage.modulemap; sourceTree = "<group>"; };
+		D066916C4591A9D18CF27667C44E8F4B /* KeyValueStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyValueStorage.debug.xcconfig; sourceTree = "<group>"; };
+		D247853FF0B94877877145AC72ACE405 /* TextFormDataParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormDataParameter.swift; path = Classes/Models/TextFormDataParameter.swift; sourceTree = "<group>"; };
+		D687A7B305BE0181F1A6AE9B916A7FD2 /* StrapiSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StrapiSwift-umbrella.h"; sourceTree = "<group>"; };
+		E9F109304D6B68E98DA45FA6329A41B2 /* StorageKeyExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageKeyExtensions.swift; path = Classes/Extensions/StorageKeyExtensions.swift; sourceTree = "<group>"; };
+		FD63E98A9339A3B2C6488B66E002CCA2 /* KeyValueStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyValueStorage-dummy.m"; sourceTree = "<group>"; };
+		FFAE8FEDD79B9CF026C908F3096433AC /* FileFormDataParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileFormDataParameter.swift; path = Classes/Models/FileFormDataParameter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167DBDBE2ED8D185FFAF24ED14B3FE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F9A144228A889096223D4A9B98B828 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC47F5E3F160837BB4F3099036D106C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE24F31EE53C8BC6D6AAB8BDA2DE44E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DBB649860F6E4E8AE6398EF9B74133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A2C90E80BFDCC4551B8602BB12EC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FBB32C7D834F78DF5A0714844D61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74432F6724BD1910D9D1725302C6DA0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F35DC131E115E7CD8629830FA12ED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9516A2B5C3099EDA7874DDF95C3B1560 /* KeyValueStorage */,
+				D952045AEBC944129C1C49DF883C86FB /* RestService */,
+				BB65E673F9AA297FF41EAC105F9746F6 /* StrapiSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D61E00E52A3B44181808C878A34F0D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E1E95BB2BC7610AF092E8B1F7024F01 /* Pods-ProyectoOrdinario */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		666C4326D6567627EC1BD403C05B5759 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EB98B90242C9D28C45147045F0D86 /* KeyValueStorage.modulemap */,
+				FD63E98A9339A3B2C6488B66E002CCA2 /* KeyValueStorage-dummy.m */,
+				48E68E5DD8E91EB0F66C0C62EC5C93D7 /* KeyValueStorage-Info.plist */,
+				C751C753C271A823838C8BD13F8E2EDE /* KeyValueStorage-prefix.pch */,
+				3EBF35192D4D632AFEB6E26B54EC244D /* KeyValueStorage-umbrella.h */,
+				D066916C4591A9D18CF27667C44E8F4B /* KeyValueStorage.debug.xcconfig */,
+				A63CDF30147952318335C43C2559D214 /* KeyValueStorage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeyValueStorage";
+			sourceTree = "<group>";
+		};
+		6E1E95BB2BC7610AF092E8B1F7024F01 /* Pods-ProyectoOrdinario */ = {
+			isa = PBXGroup;
+			children = (
+				7CD0EC76F0CD304CDC01485C73185AA6 /* Pods-ProyectoOrdinario.modulemap */,
+				9E57C919537F42424A0FA464283FABC1 /* Pods-ProyectoOrdinario-acknowledgements.markdown */,
+				BC6C41DAF61AF31DE09CFB74627F93AB /* Pods-ProyectoOrdinario-acknowledgements.plist */,
+				1D10A2D68C8D4660A95B578044842CCA /* Pods-ProyectoOrdinario-dummy.m */,
+				852CFAD8BE0F66E52FCB31BE984C55CD /* Pods-ProyectoOrdinario-frameworks.sh */,
+				19D4FAFA2FDF6BA647DFBDB312AC27D2 /* Pods-ProyectoOrdinario-Info.plist */,
+				65A222030BE871811102E3F954F06EA2 /* Pods-ProyectoOrdinario-umbrella.h */,
+				25327340ACEAA720D2C123C38B318368 /* Pods-ProyectoOrdinario.debug.xcconfig */,
+				69AF51F4EDFA6F3BAB57B32DB4D001E1 /* Pods-ProyectoOrdinario.release.xcconfig */,
+			);
+			name = "Pods-ProyectoOrdinario";
+			path = "Target Support Files/Pods-ProyectoOrdinario";
+			sourceTree = "<group>";
+		};
+		7D2D81BAC83E2A6BC7D925C6EDCCADB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC4691C38802C9D24E7E51CD5A5410 /* KeyValueStorage */,
+				5D107FBEE635E3E224FEBC2ECE1A365A /* Pods-ProyectoOrdinario */,
+				63C53B3A1B8B77E5ED3405869BBAFCDF /* RestService */,
+				0A66E1C32A084BB4B6ABA1425A9E87E4 /* StrapiSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9516A2B5C3099EDA7874DDF95C3B1560 /* KeyValueStorage */ = {
+			isa = PBXGroup;
+			children = (
+				0701A2BA444E6C9915C4ED60867BAAAB /* KeychainKeyValueStorage.swift */,
+				712F9EE60A7EF8F1FA01A992869FF746 /* KeyValueStorage.swift */,
+				AFD3347F737C532AAA246F10DAD450FD /* MemoryKeyValueStorage.swift */,
+				5A4059DA0B7F5B9CC2B200A51077B1FC /* StorageKey.swift */,
+				936244EC188A6BC5D5A8B150D10C0D94 /* UserDefaultsKeyValueStorage.swift */,
+				666C4326D6567627EC1BD403C05B5759 /* Support Files */,
+			);
+			name = KeyValueStorage;
+			path = KeyValueStorage;
+			sourceTree = "<group>";
+		};
+		BB65E673F9AA297FF41EAC105F9746F6 /* StrapiSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6ADFDFA343B81751DC0C7A2FE69E7 /* ContentType.swift */,
+				5773407E71AF509F9F8158724D630694 /* CountRequest.swift */,
+				9243E14B9F9350EE6CBC4B0AF659AE16 /* CreateRequest.swift */,
+				785E585AF35F40342D00461A0EAD53DF /* DestroyRequest.swift */,
+				BF304BCBCD4D3036D7DEB2BB0CE45E2E /* FetchRequest.swift */,
+				1F7FC1132F1BC7AB3D427EAAB3375F13 /* QueryRequest.swift */,
+				5AD9077A0D172883A7BCF0D334E3AAA8 /* RestResponseExtensions.swift */,
+				E9F109304D6B68E98DA45FA6329A41B2 /* StorageKeyExtensions.swift */,
+				B7F9FEEC0459F5CFBE5369801F6612D8 /* Strapi.swift */,
+				19228276FFBD38241F348AB7131916AC /* StrapiAuthorizationInterceptor.swift */,
+				8906BB555728EDC18C89D965FC24490C /* StrapiError.swift */,
+				90474081484AD60BE45BA8398BE0E46A /* StrapiMessage.swift */,
+				0A2AC30010E64A6B3F4CE6942F5BA4EE /* StrapiRequest.swift */,
+				413BFE1C02503B2AE48AD7D23A9924F3 /* UpdateRequest.swift */,
+				CF02F63FB203864ACC72638B4B9D1673 /* Support Files */,
+			);
+			name = StrapiSwift;
+			path = StrapiSwift;
+			sourceTree = "<group>";
+		};
+		CF02F63FB203864ACC72638B4B9D1673 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06017A2B53DF18995B6640CA750C9EE4 /* StrapiSwift.modulemap */,
+				1E0EA90A0776809487FB110A04BE8907 /* StrapiSwift-dummy.m */,
+				A808EFB6401C0A38383B95F0AB3A93D5 /* StrapiSwift-Info.plist */,
+				7AF7B18F1ECDDD3DD2933DEB847F819D /* StrapiSwift-prefix.pch */,
+				D687A7B305BE0181F1A6AE9B916A7FD2 /* StrapiSwift-umbrella.h */,
+				C4D5A8D1F85FFB0E6675964E783FF23E /* StrapiSwift.debug.xcconfig */,
+				4FD8614A4D5EA909D95AC9D0E3C92341 /* StrapiSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StrapiSwift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				24F35DC131E115E7CD8629830FA12ED3 /* Pods */,
+				7D2D81BAC83E2A6BC7D925C6EDCCADB1 /* Products */,
+				5D61E00E52A3B44181808C878A34F0D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D952045AEBC944129C1C49DF883C86FB /* RestService */ = {
+			isa = PBXGroup;
+			children = (
+				FFAE8FEDD79B9CF026C908F3096433AC /* FileFormDataParameter.swift */,
+				B01A7064BEC6F780DD1B946759935F4E /* FormDataParameter.swift */,
+				7F0B2965DFFC28353689CE2B1F914287 /* HTTPMethod.swift */,
+				71459A28A6C4935B3A7C6AA06303FE03 /* HTTPScheme.swift */,
+				2694B9D0DCA96BFE83C8203104D9B000 /* RequestExecutable.swift */,
+				27A1FA21545070609835B025710F3403 /* RestDataTask.swift */,
+				22190B42469E3B6AD92790FC4997F31F /* RestPath.swift */,
+				A864CBA70AE2450DDACB3F4077F96D46 /* RestRequestInterceptor.swift */,
+				0D227B0578142FFC410E8BE2CD9F76D8 /* RestResponse.swift */,
+				B393414EC17E5508071E5E6BB2F51D4B /* RestService.swift */,
+				D247853FF0B94877877145AC72ACE405 /* TextFormDataParameter.swift */,
+				FCF1EA836BF9B905D0A4A609DAE56EB1 /* Support Files */,
+			);
+			name = RestService;
+			path = RestService;
+			sourceTree = "<group>";
+		};
+		FCF1EA836BF9B905D0A4A609DAE56EB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66D4FB3AD395F41F7ED198D4FE64174A /* RestService.modulemap */,
+				A4554C9A574872752EE639DCC01C68AF /* RestService-dummy.m */,
+				43F251A407EA81EB82A29F6C4A8A70C1 /* RestService-Info.plist */,
+				06462DA923933DE3BC7F6C0D065C5A7E /* RestService-prefix.pch */,
+				1153881C9DE33F1A2FB6DCBB93150361 /* RestService-umbrella.h */,
+				A47A29596A6DF3E1E1F7E75936646D42 /* RestService.debug.xcconfig */,
+				AD71535F171AE987522DF0E5C4270A72 /* RestService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RestService";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		083481A36783BD9B97D1B93567DEF0B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2DEFD95A48953DDE1497B7D3311870 /* Pods-ProyectoOrdinario-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFDA5209FF7D7F66C5D99DD56E986E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC8EAC66CC2DAC7F5A1FBE036EDA421 /* StrapiSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C42844B1171503FA7BC67AEE41A6FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83108761D1D31DED48DB2C35DECFEFD8 /* RestService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939E384C3D898E716F369E1317571234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3706B2C3AAB01C3FB5741D9468F10B /* KeyValueStorage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1654B7579944653C022EF5A8C0332F90 /* RestService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763486D53C2D6FECF3016850B7AB66AC /* Build configuration list for PBXNativeTarget "RestService" */;
+			buildPhases = (
+				84C42844B1171503FA7BC67AEE41A6FB /* Headers */,
+				9645570DD45C99058FD814D381BC5433 /* Sources */,
+				D44FBB32C7D834F78DF5A0714844D61C /* Frameworks */,
+				4148A61B80524E7522AA2E34898100FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestService;
+			productName = RestService;
+			productReference = 63C53B3A1B8B77E5ED3405869BBAFCDF /* RestService */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F91F8CDF5F68F7961359A28741F6C82 /* KeyValueStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2ABFCA26E474F88B5BDC7FFBCC722C9 /* Build configuration list for PBXNativeTarget "KeyValueStorage" */;
+			buildPhases = (
+				939E384C3D898E716F369E1317571234 /* Headers */,
+				F5E2B041525040FFD98F05416F698401 /* Sources */,
+				167DBDBE2ED8D185FFAF24ED14B3FE84 /* Frameworks */,
+				78DD4352DAF6B45CF64B9D0E4A21A66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyValueStorage;
+			productName = KeyValueStorage;
+			productReference = 3AAC4691C38802C9D24E7E51CD5A5410 /* KeyValueStorage */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACC74D22D24C02CD45B96BD10E3BC30F /* StrapiSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0652C868E06CDB147DCEF313A4CB00 /* Build configuration list for PBXNativeTarget "StrapiSwift" */;
+			buildPhases = (
+				3CFDA5209FF7D7F66C5D99DD56E986E7 /* Headers */,
+				844FA80546602CC2BC657A02710C2D90 /* Sources */,
+				1BC47F5E3F160837BB4F3099036D106C /* Frameworks */,
+				1E014E9E45BB9F02DD206EED67317895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240C45D61F971B4B639E86885039F7D4 /* PBXTargetDependency */,
+				CAE87422FD60F551C620EAC1E9041B3B /* PBXTargetDependency */,
+			);
+			name = StrapiSwift;
+			productName = StrapiSwift;
+			productReference = 0A66E1C32A084BB4B6ABA1425A9E87E4 /* StrapiSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7CA4E411262BBEEAAFB072F901DC4D4 /* Pods-ProyectoOrdinario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9494E06F732A8CD2E962C25EA137FE /* Build configuration list for PBXNativeTarget "Pods-ProyectoOrdinario" */;
+			buildPhases = (
+				083481A36783BD9B97D1B93567DEF0B0 /* Headers */,
+				2AB41949C2AA81B086E20977E55B2E37 /* Sources */,
+				86DBB649860F6E4E8AE6398EF9B74133 /* Frameworks */,
+				4E5D79EC966C1BD0C93E2A25DC7685A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C331FB07CE7D8BB7684B00420BD79E4E /* PBXTargetDependency */,
+				E8A2615D585C2F280D3683403C49F27F /* PBXTargetDependency */,
+				5B9D479563804863B7C38FC33FA43145 /* PBXTargetDependency */,
+			);
+			name = "Pods-ProyectoOrdinario";
+			productName = Pods_ProyectoOrdinario;
+			productReference = 5D107FBEE635E3E224FEBC2ECE1A365A /* Pods-ProyectoOrdinario */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7D2D81BAC83E2A6BC7D925C6EDCCADB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F91F8CDF5F68F7961359A28741F6C82 /* KeyValueStorage */,
+				E7CA4E411262BBEEAAFB072F901DC4D4 /* Pods-ProyectoOrdinario */,
+				1654B7579944653C022EF5A8C0332F90 /* RestService */,
+				ACC74D22D24C02CD45B96BD10E3BC30F /* StrapiSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E014E9E45BB9F02DD206EED67317895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4148A61B80524E7522AA2E34898100FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5D79EC966C1BD0C93E2A25DC7685A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DD4352DAF6B45CF64B9D0E4A21A66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB41949C2AA81B086E20977E55B2E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C620BDE6FA63F9C6FC0D0700908CF6 /* Pods-ProyectoOrdinario-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844FA80546602CC2BC657A02710C2D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C457CDFEFAD037BE9E35D31C61F0BC44 /* ContentType.swift in Sources */,
+				0F7097070ACD72B5163B435BCA7B0730 /* CountRequest.swift in Sources */,
+				AA43B9CD7625B351ECBD890A9946B8DF /* CreateRequest.swift in Sources */,
+				83B14E7EFCA8964C6900B2E5A18A99F5 /* DestroyRequest.swift in Sources */,
+				C74568D008D4705055B45D0122BB0BE8 /* FetchRequest.swift in Sources */,
+				EE87496EFF08520455AB127100EC18DB /* QueryRequest.swift in Sources */,
+				DF0C3682700C3C92356080E1BD031B03 /* RestResponseExtensions.swift in Sources */,
+				E9BA8DCD6825E32E01091EB909162492 /* StorageKeyExtensions.swift in Sources */,
+				AED62BC511EBC1054C5D2A3647E80D93 /* Strapi.swift in Sources */,
+				E537E3899375086A6CD68D8954BE7FE7 /* StrapiAuthorizationInterceptor.swift in Sources */,
+				F727628054A1E846D7A0F30E33600E14 /* StrapiError.swift in Sources */,
+				A1D6C2E20590347C830153885A4818A6 /* StrapiMessage.swift in Sources */,
+				172A04769CF637DD4AE666A10F7948C2 /* StrapiRequest.swift in Sources */,
+				748A8826F6A0DD11DED1664F38EDECF9 /* StrapiSwift-dummy.m in Sources */,
+				C398F134903AB2BAB1ACC97823302E0E /* UpdateRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9645570DD45C99058FD814D381BC5433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE01D369749DAC330DCEAC6C8C4BC81 /* FileFormDataParameter.swift in Sources */,
+				8DCD73A333403D46C2A346F72D829328 /* FormDataParameter.swift in Sources */,
+				F3DAA51BFADD10E4B55D181F332B353D /* HTTPMethod.swift in Sources */,
+				6C23B34E179BEC5094646C59F7EB3E34 /* HTTPScheme.swift in Sources */,
+				2C07E2E5D0F375375AC90DF95FAEB1B0 /* RequestExecutable.swift in Sources */,
+				33F951003D34F13F6EF73D06E501B3B4 /* RestDataTask.swift in Sources */,
+				82FF3E8FD192FF2342AC8FC74A702993 /* RestPath.swift in Sources */,
+				D8179C159524BDA84CAC4720CCAF05EB /* RestRequestInterceptor.swift in Sources */,
+				A71FDD595C8B1EC9AB43488C6B02A869 /* RestResponse.swift in Sources */,
+				5DCB7F7765C59E9BD1F0A022E7A6D12D /* RestService.swift in Sources */,
+				FD4F4754C915F750143DF06FA4E07559 /* RestService-dummy.m in Sources */,
+				DFAC56CEBE19386F915DA6BAE3C6AA7A /* TextFormDataParameter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E2B041525040FFD98F05416F698401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFFC9968B91237C09108F6DAFCB89C1 /* KeychainKeyValueStorage.swift in Sources */,
+				85ED1D900644CE483A2C6195D8CF7D4C /* KeyValueStorage.swift in Sources */,
+				DAB8038DCB00A53B618EBAEB149F4877 /* KeyValueStorage-dummy.m in Sources */,
+				BA856296EF2ED46E7CCA490811B11FDD /* MemoryKeyValueStorage.swift in Sources */,
+				399C95BEB881DF2B3BCE237E7A004919 /* StorageKey.swift in Sources */,
+				8AA6A457B25C43A1784F251F77FA5BBB /* UserDefaultsKeyValueStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		240C45D61F971B4B639E86885039F7D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyValueStorage;
+			target = 3F91F8CDF5F68F7961359A28741F6C82 /* KeyValueStorage */;
+			targetProxy = FB4C39F6E18D3A8594D6BD9E2FF87DB0 /* PBXContainerItemProxy */;
+		};
+		5B9D479563804863B7C38FC33FA43145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StrapiSwift;
+			target = ACC74D22D24C02CD45B96BD10E3BC30F /* StrapiSwift */;
+			targetProxy = 5A54C8415BFE3F4438413481A1B960E4 /* PBXContainerItemProxy */;
+		};
+		C331FB07CE7D8BB7684B00420BD79E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyValueStorage;
+			target = 3F91F8CDF5F68F7961359A28741F6C82 /* KeyValueStorage */;
+			targetProxy = E108147A8C3299C2FF5526EE63FF1CBD /* PBXContainerItemProxy */;
+		};
+		CAE87422FD60F551C620EAC1E9041B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestService;
+			target = 1654B7579944653C022EF5A8C0332F90 /* RestService */;
+			targetProxy = 389783F319AE63804C3500C225BE8870 /* PBXContainerItemProxy */;
+		};
+		E8A2615D585C2F280D3683403C49F27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestService;
+			target = 1654B7579944653C022EF5A8C0332F90 /* RestService */;
+			targetProxy = E4D0D875E2C0FB164A0795BC616A8B65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FAFF14EEB2ADCE7FA744920730FE2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD71535F171AE987522DF0E5C4270A72 /* RestService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RestService/RestService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RestService/RestService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RestService/RestService.modulemap";
+				PRODUCT_MODULE_NAME = RestService;
+				PRODUCT_NAME = RestService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9934A5F1ED45D4BB78AAA8BFBA37FEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD8614A4D5EA909D95AC9D0E3C92341 /* StrapiSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StrapiSwift/StrapiSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StrapiSwift/StrapiSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StrapiSwift/StrapiSwift.modulemap";
+				PRODUCT_MODULE_NAME = StrapiSwift;
+				PRODUCT_NAME = StrapiSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1E2CA2D8672BB4B334F3C2EF8FC902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47A29596A6DF3E1E1F7E75936646D42 /* RestService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RestService/RestService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RestService/RestService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RestService/RestService.modulemap";
+				PRODUCT_MODULE_NAME = RestService;
+				PRODUCT_NAME = RestService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFB7906844ACC1B66079E4206EE20262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AF51F4EDFA6F3BAB57B32DB4D001E1 /* Pods-ProyectoOrdinario.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyectoOrdinario/Pods-ProyectoOrdinario-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyectoOrdinario/Pods-ProyectoOrdinario.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C27AF7FAEF194B5C2362D301B21D15B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D5A8D1F85FFB0E6675964E783FF23E /* StrapiSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StrapiSwift/StrapiSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StrapiSwift/StrapiSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StrapiSwift/StrapiSwift.modulemap";
+				PRODUCT_MODULE_NAME = StrapiSwift;
+				PRODUCT_NAME = StrapiSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D12631E6D2991EF6775B57D1D561EF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D066916C4591A9D18CF27667C44E8F4B /* KeyValueStorage.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyValueStorage/KeyValueStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyValueStorage/KeyValueStorage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeyValueStorage/KeyValueStorage.modulemap";
+				PRODUCT_MODULE_NAME = KeyValueStorage;
+				PRODUCT_NAME = KeyValueStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4E27F23BDCA6478DF8D0BFB386246A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63CDF30147952318335C43C2559D214 /* KeyValueStorage.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyValueStorage/KeyValueStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyValueStorage/KeyValueStorage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeyValueStorage/KeyValueStorage.modulemap";
+				PRODUCT_MODULE_NAME = KeyValueStorage;
+				PRODUCT_NAME = KeyValueStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA5C18324DD5C085371248DABD4C22A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25327340ACEAA720D2C123C38B318368 /* Pods-ProyectoOrdinario.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProyectoOrdinario/Pods-ProyectoOrdinario-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProyectoOrdinario/Pods-ProyectoOrdinario.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0652C868E06CDB147DCEF313A4CB00 /* Build configuration list for PBXNativeTarget "StrapiSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27AF7FAEF194B5C2362D301B21D15B4 /* Debug */,
+				9934A5F1ED45D4BB78AAA8BFBA37FEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763486D53C2D6FECF3016850B7AB66AC /* Build configuration list for PBXNativeTarget "RestService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E2CA2D8672BB4B334F3C2EF8FC902C /* Debug */,
+				6FAFF14EEB2ADCE7FA744920730FE2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2ABFCA26E474F88B5BDC7FFBCC722C9 /* Build configuration list for PBXNativeTarget "KeyValueStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12631E6D2991EF6775B57D1D561EF80 /* Debug */,
+				E4E27F23BDCA6478DF8D0BFB386246A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9494E06F732A8CD2E962C25EA137FE /* Build configuration list for PBXNativeTarget "Pods-ProyectoOrdinario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5C18324DD5C085371248DABD4C22A2 /* Debug */,
+				BFB7906844ACC1B66079E4206EE20262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -33,15 +33,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3x-iL-yod">
-                                <rect key="frame" x="80" y="699" width="230" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Datos strapi"/>
-                                <connections>
-                                    <action selector="botonStrapi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cfo-JU-r7G"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fK4-27-TJ5">
                                 <rect key="frame" x="80" y="327" width="230" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -616,7 +607,7 @@
         <segue reference="jIe-Zw-PmT"/>
         <segue reference="ziM-nd-VPP"/>
         <segue reference="KdL-RT-mQ3"/>
-        <segue reference="TeO-F9-puy"/>
+        <segue reference="Ts0-xr-21O"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
